@@ -74,8 +74,6 @@ nav .menu {
 }
 
 
-
-
 @media(max-width: 800px) {
 
   header {
@@ -83,12 +81,10 @@ nav .menu {
     display: flex;
     flex-flow: column;
     align-items: center;
-    
   }
 
   nav {
     flex-flow: column;
-
   }
 
   .menu ul {
@@ -123,11 +119,9 @@ nav .menu {
     border-radius: 5px;
   }
 
- li ul {
+ ul a li {
     flex-basis: 100%;
-    flex: 0 2 250px;
+    align-items: stretch;
   }
-
-
 }
 
