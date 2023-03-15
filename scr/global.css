@@ -1,0 +1,11 @@
+:root {
+  --cor-botao: #5BC241;
+  --letras: #FFFFFF;
+  --texto-geral: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800;900&display=swap');
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
