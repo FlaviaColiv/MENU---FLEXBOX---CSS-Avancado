@@ -40,6 +40,7 @@ a {
   cursor: pointer;
   margin: 10px;
   padding: 10px;
+  transition: 0.25s ease-in-out;
 }
 
 a:hover {
